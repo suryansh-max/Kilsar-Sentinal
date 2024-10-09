@@ -1,0 +1,20 @@
+names: ['weapon']
+
+nc: 1
+train:
+- /home/research/kilasar_sentinal_wepon_detection/data/0/train
+- /home/research/kilasar_sentinal_wepon_detection/data/1/train
+- /home/research/kilasar_sentinal_wepon_detection/data/2/train
+- /home/research/kilasar_sentinal_wepon_detection/suryansh/data/n/train
+- /home/research/kilasar_sentinal_wepon_detection/suryansh/outsiside_data/dataset-2/train/images
+- /home/research/kilasar_sentinal_wepon_detection/data/n/train/images
+- /mnt/storage/kilsar_jainil/Augmentation/cycle-1/train/images
+
+val:
+- /home/research/kilasar_sentinal_wepon_detection/data/0/val
+- /home/research/kilasar_sentinal_wepon_detection/data/1/val
+- /home/research/kilasar_sentinal_wepon_detection/data/2/val
+- /home/research/kilasar_sentinal_wepon_detection/suryansh/data/n/val
+- /home/research/kilasar_sentinal_wepon_detection/suryansh/outsiside_data/dataset-2/valid/images
+- /home/research/kilasar_sentinal_wepon_detection/data/n/val/images
+- /mnt/storage/kilsar_jainil/Augmentation/cycle-1/val/images

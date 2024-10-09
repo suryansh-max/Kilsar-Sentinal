@@ -1,0 +1,65 @@
+Found 7996 images belonging to 2 classes.
+Found 2000 images belonging to 2 classes.
+/home/research/Kilsar_Sentinal/.venv/lib64/python3.11/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+Epoch 1/10
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1728436809.375505 1456839 service.cc:146] XLA service 0x7fb94c01bf90 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+I0000 00:00:1728436809.375534 1456839 service.cc:154]   StreamExecutor device (0): NVIDIA A30, Compute Capability 8.0
+I0000 00:00:1728436809.375536 1456839 service.cc:154]   StreamExecutor device (1): NVIDIA A30, Compute Capability 8.0
+I0000 00:00:1728436809.375538 1456839 service.cc:154]   StreamExecutor device (2): NVIDIA A30, Compute Capability 8.0
+I0000 00:00:1728436809.375540 1456839 service.cc:154]   StreamExecutor device (3): NVIDIA A30, Compute Capability 8.0
+2024-10-08 20:20:09.643243: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-10-08 20:20:10.883270: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:531] Loaded cuDNN version 8902
+2024-10-08 20:20:12.358176: I external/local_xla/xla/stream_executor/cuda/cuda_asm_compiler.cc:393] ptxas warning : Registers are spilled to local memory in function 'gemm_fusion_dot_19365', 8 bytes spill stores, 8 bytes spill loads
+
+2024-10-08 20:20:12.551326: I external/local_xla/xla/stream_executor/cuda/cuda_asm_compiler.cc:393] ptxas warning : Registers are spilled to local memory in function 'gemm_fusion_dot_19365', 4 bytes spill stores, 4 bytes spill loads
+
+2024-10-08 20:20:12.556534: I external/local_xla/xla/stream_executor/cuda/cuda_asm_compiler.cc:393] ptxas warning : Registers are spilled to local memory in function 'gemm_fusion_dot_19365', 168 bytes spill stores, 168 bytes spill loads
+
+[1m  2/249[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m12s[0m 49ms/step - accuracy: 0.6562 - loss: 0.6265   I0000 00:00:1728436823.378237 1456839 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[1m230/249[0m [32m━━━━━━━━━━━━━━━━━━[0m[37m━━[0m [1m4s[0m 247ms/step - accuracy: 0.8049 - loss: 0.51352024-10-08 20:21:22.822706: I external/local_xla/xla/stream_executor/cuda/cuda_asm_compiler.cc:393] ptxas warning : Registers are spilled to local memory in function 'gemm_fusion_dot_19629', 24 bytes spill stores, 24 bytes spill loads
+
+2024-10-08 20:21:22.856538: I external/local_xla/xla/stream_executor/cuda/cuda_asm_compiler.cc:393] ptxas warning : Registers are spilled to local memory in function 'gemm_fusion_dot_19631', 36 bytes spill stores, 40 bytes spill loads
+
+2024-10-08 20:21:22.896221: I external/local_xla/xla/stream_executor/cuda/cuda_asm_compiler.cc:393] ptxas warning : Registers are spilled to local memory in function 'gemm_fusion_dot_19365', 196 bytes spill stores, 196 bytes spill loads
+
+2024-10-08 20:21:22.897506: I external/local_xla/xla/stream_executor/cuda/cuda_asm_compiler.cc:393] ptxas warning : Registers are spilled to local memory in function 'gemm_fusion_dot_19365', 28 bytes spill stores, 28 bytes spill loads
+
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step - accuracy: 0.8052 - loss: 0.5123/home/research/Kilsar_Sentinal/.venv/lib64/python3.11/site-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m103s[0m 330ms/step - accuracy: 0.8053 - loss: 0.5122 - val_accuracy: 0.8110 - val_loss: 0.4788
+Epoch 2/10
+[1m  1/249[0m [37m━━━━━━━━━━━━━━━━━━━━[0m [1m9s[0m 40ms/step - accuracy: 0.7188 - loss: 0.54722024-10-08 20:21:45.266802: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-10-08 20:21:45.267005: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_4]]
+/usr/lib64/python3.11/contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(typ, value, traceback)
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 29ms/step - accuracy: 0.7188 - loss: 0.5472 - val_accuracy: 0.6250 - val_loss: 0.7530
+Epoch 3/10
+2024-10-08 20:21:52.365938: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m65s[0m 259ms/step - accuracy: 0.8068 - loss: 0.4867 - val_accuracy: 0.8090 - val_loss: 0.4753
+Epoch 4/10
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 110us/step - accuracy: 0.8438 - loss: 0.4118 - val_accuracy: 0.8750 - val_loss: 0.3885
+Epoch 5/10
+2024-10-08 20:22:57.069000: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m64s[0m 258ms/step - accuracy: 0.8135 - loss: 0.4753 - val_accuracy: 0.8095 - val_loss: 0.4815
+Epoch 6/10
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 117us/step - accuracy: 0.8750 - loss: 0.4214 - val_accuracy: 0.8125 - val_loss: 0.4684
+Epoch 7/10
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m64s[0m 258ms/step - accuracy: 0.8174 - loss: 0.4675 - val_accuracy: 0.8095 - val_loss: 0.4740
+Epoch 8/10
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 110us/step - accuracy: 0.6875 - loss: 0.6429 - val_accuracy: 0.8125 - val_loss: 0.5187
+Epoch 9/10
+2024-10-08 20:25:05.906281: I tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+	 [[IteratorGetNext/_2]]
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m64s[0m 259ms/step - accuracy: 0.8105 - loss: 0.4765 - val_accuracy: 0.8090 - val_loss: 0.4753
+Epoch 10/10
+[1m249/249[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 110us/step - accuracy: 0.9062 - loss: 0.3346 - val_accuracy: 0.8750 - val_loss: 0.3329

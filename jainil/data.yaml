@@ -1,0 +1,19 @@
+names:
+- 1
+
+nc: 1
+
+train:
+- /home/research/kilasar_sentinal_wepon_detection/data/0/train
+- /home/research/kilasar_sentinal_wepon_detection/data/1/train
+- /home/research/kilasar_sentinal_wepon_detection/data/2/train
+
+val:
+- /home/research/kilasar_sentinal_wepon_detection/data/0/val
+- /home/research/kilasar_sentinal_wepon_detection/data/1/val
+- /home/research/kilasar_sentinal_wepon_detection/data/2/val
+
+test:
+- /home/research/kilasar_sentinal_wepon_detection/data/0/test
+- /home/research/kilasar_sentinal_wepon_detection/data/1/test
+- /home/research/kilasar_sentinal_wepon_detection/data/2/test

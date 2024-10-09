@@ -1,0 +1,27 @@
+
+# Allow only .ipynb and .py files to be tracked
+!*.ipynb
+!*.py
+
+# Ignore large directories by adding their paths explicitly
+Data/
+Data1/
+EfficientNet data/
+jainil/Inferences5
+jainil/source
+merged_results
+Mohammad
+runs/detect
+wandb
+dump
+runs
+video_for_inference
+.venv
+# Optionally, you can specify subdirectories to ignore
+data/
+output/
+jainil/runs/detect
+
+# Ignore all files in a folder except for specific ones (e.g., scripts folder)
+scripts/**
+!scripts/*.py
