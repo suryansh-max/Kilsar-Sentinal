@@ -6,7 +6,7 @@
 # Ignore large directories by adding their paths explicitly
 Data/
 Data1/
-EfficientNet data/
+EfficientNet_data/
 jainil/Inferences5
 jainil/source
 merged_results
@@ -17,6 +17,10 @@ dump
 runs
 video_for_inference
 .venv
+suryansh/src/models/tuner_dir/
+Data2
+suryansh/src/models/best_model.keras
+
 # Optionally, you can specify subdirectories to ignore
 data/
 output/
