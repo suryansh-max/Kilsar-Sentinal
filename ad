@@ -1,0 +1,43 @@
+[33mcommit 941fe0e101cdcb8335eb80d17692b7b1f315a30b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Suryansh Patel <patelsuryansh72@gmail.com>
+Date:   Fri Oct 11 14:57:10 2024 -0500
+
+    fix errors in version
+
+[33mcommit 67506a1cddbe902e0345a697f16833e1a05489de[m
+Author: Suryansh Patel <patelsuryansh72@gmail.com>
+Date:   Fri Oct 11 14:53:50 2024 -0500
+
+    model unstored
+
+[33mcommit 2440a6a4f8add6cc349708bc16a74dc4fd50945f[m
+Author: Suryansh Patel <patelsuryansh72@gmail.com>
+Date:   Fri Oct 11 14:47:12 2024 -0500
+
+    added some enhancements
+
+[33mcommit 528cec6e3c20e7422c5421e7167ff86ffae75dbc[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Suryansh Patel <55026540+suryansh-max@users.noreply.github.com>
+Date:   Fri Oct 11 14:27:55 2024 -0500
+
+    Create sync.yml
+    
+    setup github actions to auto sync form my git hub
+
+[33mcommit 188698393b1dde525ce1755ecd550108c479e555[m
+Author: Suryansh Patel <patelsuryansh72@gmail.com>
+Date:   Fri Oct 11 09:55:58 2024 -0500
+
+    effecientnet + random search
+
+[33mcommit 1a4bc8b2e281b902cec9a5041950950a139c3ef1[m
+Author: Suryansh Patel <patelsuryansh72@gmail.com>
+Date:   Tue Oct 8 20:46:45 2024 -0500
+
+    code pushed
+
+[33mcommit 21d8cfabd775968bf6e706853c0024741c6deb3e[m
+Author: Suryansh Patel <patelsuryansh72@gmail.com>
+Date:   Tue Oct 8 20:39:39 2024 -0500
+
+    first commit
