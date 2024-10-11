@@ -1,0 +1,23 @@
+name: Sync to Organization
+
+on:
+  push:
+    branches:
+      - main  # You can change this to any branch you want to sync from
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "suryansh-max"
+          git config --global user.email "patelsuryansh72@gmail.com"
+
+      - name: Push changes to organization repository
+        run: |
+          git remote add org https://x-access-token:${{ secrets.PAT_ORG_REPO }}@github.com/umddm/Kilsar-Sentinal.git
+          git push org main
