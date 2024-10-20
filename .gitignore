@@ -25,7 +25,9 @@ suryansh/src/models/best_model.keras
 data/
 output/
 jainil/runs/detect
+Data_results
 
 # Ignore all files in a folder except for specific ones (e.g., scripts folder)
 scripts/**
 !scripts/*.py
+suryansh/src/deepLearning.ipynb
