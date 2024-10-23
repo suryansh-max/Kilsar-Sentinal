@@ -26,8 +26,9 @@ data/
 output/
 jainil/runs/detect
 Data_results
-
+suryansh/src/infrences_yoloEff_pipline
 # Ignore all files in a folder except for specific ones (e.g., scripts folder)
 scripts/**
 !scripts/*.py
 suryansh/src/deepLearning.ipynb
+suryansh/IMG_1400.MOV
